@@ -16,6 +16,5 @@ int main() {
     int m3 = midpointMinutes % 60;
 
     cout << setfill('0') << setw(2) << h3 << ":" << setw(2) << m3 << endl;
-
     return 0;
 }
